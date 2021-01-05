@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:id="@+id/imagecontainer">
+    <LinearLayout
+        android:id="@+id/ln"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/firstchar"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_25sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/text_bg"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10ssp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_toRightOf="@+id/firstchar"
+                android:layout_weight="1"
+                android:textSize="@dimen/_12ssp"></TextView>
+
+            <TextView
+                android:id="@+id/Useremail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_toRightOf="@+id/firstchar"
+                android:layout_weight="1"
+                android:textSize="@dimen/_8ssp"></TextView>
+        </LinearLayout>
+        <ImageView
+
+            android:id="@+id/audiomeeting"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_toRightOf="@+id/UserName"
+            android:background="@drawable/audiomeeting"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_30sdp">
+        </ImageView>
+        <ImageView
+            android:id="@+id/vieomeeting"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/audiomeeting"
+            android:background="@drawable/videomeeting"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp">
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageselector"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/ic_baseline_check_24"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp">
+    </ImageView>
+    <View
+        android:layout_below="@id/ln"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </View>
+</RelativeLayout>

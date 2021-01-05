@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "858960005949",
+    "firebase_url": "https://vconference-67f52.firebaseio.com",
+    "project_id": "vconference-67f52",
+    "storage_bucket": "vconference-67f52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858960005949:android:765190b709460be78dd354",
+        "android_client_info": {
+          "package_name": "com.example.vconference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858960005949-du04i946dpd7j5qtsdpjh4oo6nchnqlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYGB3corKSWEb8I6gz3G5YgSIU4c66Wn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858960005949-du04i946dpd7j5qtsdpjh4oo6nchnqlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
